@@ -1,6 +1,5 @@
 package api.autentication.apiAutentication.security;
 
-
 import api.autentication.apiAutentication.services.DetalheUsuarioServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpMethod;
@@ -51,14 +50,3 @@ public class JWTConfiguracao extends WebSecurityConfigurerAdapter {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
